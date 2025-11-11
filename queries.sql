@@ -7,3 +7,5 @@ select ydstogo,avg(yards_gained) as avg_yards
 from plays
 where rush_attempt=1
 group by ydstogo
+
+
